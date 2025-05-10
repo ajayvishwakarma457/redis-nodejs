@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Redis dump file (if any)
+dump.rdb
+
+# Frontend build output (adjust for your framework if needed)
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.nuxt/
+
+# Backend build output
+backend/dist/
+backend/build/
+
+# Cache
+.cache/
+.next/
+.nuxt/
+.vite/
+*.tsbuildinfo
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sw?
+
+# Optional: ignore test coverage reports
+coverage/
+
+# Optional: ignore local MongoDB/Redis data directories
+data/
